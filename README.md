@@ -50,9 +50,9 @@
 ---
 # Sample Screenshot
 ## Login Page
-![login page](images/resto02.png)
+![login page](https://raw.githubusercontent.com/propainter/restoapp/main/docs/images/resto02.png)
 ## Home/Listing page
-![home page](images/restoapp01.png)
+![home page](https://raw.githubusercontent.com/propainter/restoapp/main/docs/images/restoapp01.png)
 
 
 
