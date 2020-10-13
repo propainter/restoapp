@@ -1,4 +1,7 @@
-# restoapp
+
+# restoapp: A Restaurant Review App
+
+A single page application at frontend and nodejs + mongodb at backend
 
 
 
