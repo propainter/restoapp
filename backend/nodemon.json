@@ -1,0 +1,8 @@
+{
+    "env": {
+        "LOCATION_API_TOKEN": "<location api tokenhere>",
+        "MONGODB_CONN_URL": "<your mongo url>",
+        "APP_JWT_SECRET": "<supersecret_dont_share>"
+
+    }
+}

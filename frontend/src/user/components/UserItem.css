@@ -1,0 +1,129 @@
+.user-item {
+  margin: 1rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+
+.user-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 0.8rem;
+  color: white;
+  background: #292929;
+}
+
+.user-item a:hover,
+.user-item a:active {
+  background: #ffd900;
+}
+
+.user-item__content {
+  padding: 0;
+}
+
+.user-item__image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.user-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+
+
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3,
+.user-item:hover p,
+.user-item:active p {
+  color: #292929;
+}
+
+.user-item__info h3 {
+  margin: 0;
+}
+
+.user-item__role {
+  font-size: xx-small;
+  margin: 0;
+}
+
+.user-item__role:hover,
+.user-item__role:active {
+  color: #292929;
+}
+
+/* ------------------------------------------------------------------------ */
+.user-item__bottom-close {
+  cursor: pointer;
+  position: absolute;
+  top: 13%;
+  right: 0%;
+  padding: 0.6rem;
+  transform: translate(0%, -50%);
+  background-color: #bbb;
+  font-size: x-large;
+}
+
+.user-item__bottom-close:hover .tooltiptext {
+  visibility: visible;
+}
+
+.user-item__bottom-close .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: large;
+ 
+  position: absolute;
+  z-index: 1;
+  right: 105%;
+}
+
+
+
+.user-item__bottom-close:hover {background: #ff0055;}
+
+
+.user-item__bottom ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-item__bottom ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 5px;
+  text-decoration: none;
+  font-size: small;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+.user-item__bottom ul li:hover {
+  background-color: #eee;
+}
+
+
+user-item__modal-actions {
+  text-align: right;
+}
+
+
+

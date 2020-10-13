@@ -1,0 +1,46 @@
+.repliedAt{
+    float: left;   
+}
+.replyPrefix{
+    float: left;
+}
+.replyContent{
+    color: grey;
+    padding: 0rem 1rem;
+}
+
+
+
+.reply-item__button-close {
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    padding: 0.2rem;
+    transform: translate(0%, -50%);
+    background-color: #bbb;
+    font-size: x-large;
+  }
+  
+  .reply-item__button-close:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .reply-item__button-close .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: large;
+   
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+  }
+  
+.reply-item__modal-actions {
+    text-align: right;
+}
