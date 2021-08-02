@@ -1,7 +1,8 @@
 
 # restoapp: A Restaurant Review App
 
-A single page application at frontend and nodejs + mongodb at backend
+Restaurant reviews app with basic functionalities listed below.
+Technical specification: A single page application at frontend and nodejs + mongodb at backend.
 
 
 
